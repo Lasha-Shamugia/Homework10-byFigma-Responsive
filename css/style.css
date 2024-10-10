@@ -130,3 +130,162 @@ h1 {
   top: 16px;
   left: 34px;
 }
+.section-2 {
+  max-width: 1184px;
+  width: 90%;
+  margin: 197px auto 0 auto;
+  /* background-color: aquamarine; */
+}
+
+.top-h3 {
+  font-weight: 700;
+  font-size: 23px;
+  line-height: 27.6px;
+  margin-bottom: 16px;
+  color: rgba(248, 94, 159, 1);
+}
+.explore-h2 {
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 52.8px;
+  color: rgba(25, 24, 37, 1);
+}
+.top-destination {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin: 16px 0 64px 0;
+  
+}
+.btns {
+  display: flex;
+  gap: 32px;
+}
+.btn-arrow-left {
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+  border-color: rgba(25, 24, 37, 0.1);
+  background-color: rgba(255, 255, 255, 1);
+}
+.btn-arrow-right {
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+  border-color: rgba(25, 24, 37, 0.1);
+  background-color: rgba(93, 80, 198, 1);
+}
+.cards-div {
+  display: flex;
+  max-width: 100%;
+  margin-bottom: 64px;
+  /* background-color: bisque; */
+}
+.card {
+  width: 32%;
+  border-radius: 32px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+}
+.card-2 {
+  margin: 0px 2%;
+}
+.card-text {
+  /* background-color: chocolate; */
+  width: 80%;
+  margin: 32px;
+}
+.title-price {
+  display: flex;
+}
+.card-title {
+  width: 82%;
+  font-weight: 700;
+  font-size: 23px;
+  line-height: 27.6px;
+  color: rgba(25, 24, 37, 1);
+}
+.card-price {
+  font-weight: 700;
+  font-size: 23px;
+  line-height: 27.6px;
+  color:rgba(248, 94, 159, 1);
+}
+.country-place {
+  margin: 16px 0 32px 0;
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28.8px;
+  color: rgba(25, 24, 37, 0.75);
+}
+.ranking {
+  display: flex;
+  font-weight: 700;
+  font-size: 23px;
+  line-height: 27.6px;
+  gap: 8px;
+  color:rgba(255, 87, 34, 1);
+}
+
+
+
+
+
+
+.section-3 {
+  max-width: 1440px;
+  width: 92%;
+  /* margin: 197px auto 0 auto; */
+}
+.section-mini {
+  width: 100%;
+  display: flex;
+}
+.travel-girl {
+  width: 100%;
+  margin-top: 64px;
+}
+.img-girl {
+  width: 100%;
+}
+.travel-div {
+  width: 40%;
+}
+.travel-point {
+  margin-top: 94px;
+  width: 100%;
+}
+.travel-h2 {
+  margin: 16px 0px;;
+}
+.btn-top {
+  display: flex;
+  text-align: center;
+  gap: 30px;
+  margin-top: 64px;
+}
+.btn-btn {
+  padding-top: 32px;
+  margin-bottom: 32px;
+  width: 204.5px;
+  height: 151px;
+  border-radius: 32px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: rgba(25, 24, 37, 0.1);
+}
+h6 {
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 42px;
+  color: rgba(255, 87, 34, 1);
+}
+.holiday {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28.8px;
+  color: rgba(25, 24, 37, 1);
+}

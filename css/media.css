@@ -1,3 +1,4 @@
+
 @media (max-width: 1024px) {
   .burger-bar {
     display: flex;
@@ -34,7 +35,24 @@
     width: 412px;
     color: rgba(25, 24, 37, 0.5);
   }
+  .top-destination {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 287px;
+  }
+  .explore-h2 {
+    margin: 16px 0px 64px 0px;
+  }
+  .title-price {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 8px;
+  }
 }
+
+
 
 
 @media (max-width: 430px) {
@@ -60,7 +78,6 @@
       line-height: 25.6px;
       width: 100%;
       color: rgba(25, 24, 37, 0.5);
-      
     }
     .buttons-div {
       display: flex;
@@ -83,6 +100,46 @@
       left: calc(35%);
       padding-right: 12px;
     }
+    .top-destination {
+      margin: 0;
+    }
+    .top-text {
+      margin-top: 145px;
+    }
+    .top-h3 {
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 19.2px;
+      margin-bottom: 16px;
+    }
+    .explore-h2 {
+      font-weight: 700;
+      font-size: 32px;
+      line-height: 38.4px;
+    }
+    .btns {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+    }
+    .btn-arrow-left {
+      width: 64px;
+      height: 64px;
+    }
+    .btn-arrow-right {
+      width: 64px;
+      height: 64px;
+    }
+    .cards-div {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .card {
+      width: 100%;
+      margin-top: 32px;
+    }
+
 }
 
 
