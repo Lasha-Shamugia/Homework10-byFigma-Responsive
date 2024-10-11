@@ -251,7 +251,7 @@ h1 {
   width: 100%;
 }
 .travel-div {
-  width: 40%;
+  width: 50%;
 }
 .travel-point {
   margin-top: 94px;
@@ -263,13 +263,15 @@ h1 {
 .btn-top {
   display: flex;
   text-align: center;
-  gap: 30px;
-  margin-top: 64px;
+}
+.btn-boxes {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
 }
 .btn-btn {
-  padding-top: 32px;
-  margin-bottom: 32px;
-  width: 204.5px;
+  margin-bottom: 4%;
+  width: 48%;
   height: 151px;
   border-radius: 32px;
   border-width: 2px;
@@ -280,6 +282,7 @@ h6 {
   font-weight: 700;
   font-size: 35px;
   line-height: 42px;
+  margin-bottom: 14px;
   color: rgba(255, 87, 34, 1);
 }
 .holiday {
