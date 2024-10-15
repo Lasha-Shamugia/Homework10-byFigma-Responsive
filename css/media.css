@@ -49,6 +49,9 @@
     flex-direction: column-reverse;
     gap: 8px;
   }
+  .image-top {
+    margin-top: 81px;
+  }
 
 
   .section-3 {
@@ -77,9 +80,22 @@
   .icon-text {
     text-align: start;
   }
-
- 
+  .footer {
+    flex-direction: column;
+    row-gap: 64px;
+  }
+  .info-div {
+    width: 100%;
+  }
+  .columns-divs {
+    width: 100%;
+  }
+  .column {
+    width: 33%;
+  }
 }
+
+
 
 
 
@@ -188,6 +204,22 @@
     .icon {
       display: flex;
       margin-bottom: 32px;
+    }
+
+    /* footer  */
+    .footer {
+      width: 94%;
+    }
+    .columns-divs {
+      flex-direction: column;
+      row-gap: 64px;
+    }
+    .ul-list {
+      display: none;
+    }
+    .Paragraph-text {
+    font-size: 16px;
+    line-height: 25.6px;
     }
 }
 

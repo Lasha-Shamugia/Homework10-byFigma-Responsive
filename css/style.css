@@ -335,3 +335,49 @@ h6 {
   background-color: rgba(255, 255, 255, 1);
   border-color: rgba(25, 24, 37, 0.1);
 }
+
+/* footer  */
+
+.footer {
+  display: flex;
+  max-width: 1184px;
+  width: 90%;
+  padding: 163px 0;
+  margin: 0 auto;
+  column-gap: 64px;
+}
+
+.columns-divs {
+  display: flex;
+  column-gap: 32px;
+}
+.Paragraph-text {
+  font-weight: 450;
+  font-size: 23px;
+  line-height: 36.8px;
+  margin: 32px 0 64px 0;
+  color: rgba(25, 24, 37, 0.5);
+}
+.footer-icons {
+  display: flex;
+  column-gap: 32px;
+}
+.column {
+  width: 165.33px;
+}
+.column-title {
+  font-size: 23px;
+  font-weight: bold;
+  margin-bottom: 32px;
+}
+.ul-list {
+  display: flex;
+  flex-direction: column;
+  width: 82%;
+  row-gap: 32px;
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28.8px;
+  color: #191825BF;
+}
